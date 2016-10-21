@@ -2,7 +2,7 @@
 
 # In this test, we randomly determine success and failure.
 
-context="security"
+context="continuous-integration/security"
 if [ $((RANDOM % 4)) == 0 ]; then
     state="failure";
     description="The security test has failed!"
