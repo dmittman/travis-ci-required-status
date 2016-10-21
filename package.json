@@ -1,0 +1,12 @@
+{
+  "name": "travis-ci-required-status",
+  "description": "Demonstrate setting multiple required statuses from Travis CI",
+  "author": "David Mittman",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "scripts": {
+    "test": "./scripts/test.sh"
+  }
+}
