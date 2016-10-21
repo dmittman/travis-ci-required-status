@@ -2,7 +2,7 @@
 
 # In this test, we always succeed.
 
-context="coverage"
+context="continuous-integration/coverage"
 state="success";
 description="You have achieved the required coverage!"
 
